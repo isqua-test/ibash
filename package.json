@@ -1,0 +1,19 @@
+{
+  "name": "ibash",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:isqua-test/ibash.git"
+  },
+  "author": "isqua <isqua@isqua.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isqua-test/ibash/issues"
+  },
+  "homepage": "https://github.com/isqua-test/ibash"
+}

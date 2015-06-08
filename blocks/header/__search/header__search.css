@@ -1,0 +1,17 @@
+.header__search
+{
+	width: 200px;
+	height: 30px;
+	box-sizing: border-box;
+	font-size: 15px;
+	font-family: inherit;
+	padding: 4px;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+
+.header__search:focus
+{
+	outline: none;
+	box-shadow: 0 0 5px #60a0ff;
+	border-color: #60a0ff;
+}

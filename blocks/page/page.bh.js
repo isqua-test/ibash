@@ -9,6 +9,11 @@ module.exports = function(bh) {
                 json.scripts
             ], true);
 
+        ctx.param('styles', {
+        	elem: 'css',
+        	url: '/pages/common/common.css'
+        })
+
         return [
             '<!DOCTYPE html>',
             {

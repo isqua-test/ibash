@@ -1,0 +1,5 @@
+node_modules
+npm-debug.log
+.enb/tmp
+pages
+!pages/**/*.bemjson.js

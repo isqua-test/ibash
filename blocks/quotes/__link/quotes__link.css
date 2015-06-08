@@ -1,0 +1,19 @@
+.quotes__link
+{
+	color: #666;
+	display: inline-block;
+	text-decoration: none;
+	margin: 0 10px 0 0;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.quotes__link:hover
+{
+	border-bottom-color: rgba(0,0,0,0.3);
+}
+
+.quotes__link_current_yes
+{
+	color: #000;
+	border: none;
+}

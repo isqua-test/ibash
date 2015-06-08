@@ -9,10 +9,16 @@ module.exports = function(bh) {
                 json.scripts
             ], true);
 
-        ctx.param('styles', {
-        	elem: 'css',
-        	url: '/pages/common/common.css'
-        })
+        ctx.param('styles', [
+            {
+            	elem: 'css',
+            	url: '/pages/common/common.css'
+            },
+            {
+                elem: 'css',
+                url: '//fonts.googleapis.com/css?family=PT+Mono&subset=latin,cyrillic-ext,cyrillic,latin-ext'
+            }
+        ])
 
         return [
             '<!DOCTYPE html>',

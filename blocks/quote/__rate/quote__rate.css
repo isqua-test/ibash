@@ -1,0 +1,21 @@
+.quote__rate
+{
+	float: right;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+
+.quote__rate-plus,
+.quote__rate-minus
+{
+	display: inline-block;
+	padding: 3px 8px;
+	background: #f6f6f6;
+}
+
+.quote__rate-val
+{
+	border-left: 1px solid rgba(0,0,0,0.2);
+	border-right: 1px solid rgba(0,0,0,0.2);
+	display: inline-block;
+	padding: 3px 12px	;
+}

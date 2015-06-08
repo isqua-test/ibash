@@ -3,6 +3,7 @@ module.exports = function(bh) {
 		ctx.content([
 			{
 				elem: 'link',
+				mods: { current: 'yes' },
 				content: 'По дате'
 			},
 			{
